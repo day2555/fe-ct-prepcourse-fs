@@ -1,4 +1,5 @@
 function devolverString(string) {
+  
   // La función recibe un argumento llamado string.
   // Debe retornar dicho string.
   // Por ejemplo: 
@@ -6,6 +7,8 @@ function devolverString(string) {
   // "hola mundo" ---> "hola mundo" 
   // "SoyHenry" ---> "SoyHenry" 
   // Tu código:
+  return string.toString();
+
 }
 
 module.exports = devolverString;
