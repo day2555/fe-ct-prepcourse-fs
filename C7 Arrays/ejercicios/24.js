@@ -6,17 +6,19 @@ function continueStatement(num) {
   // PISTA: Utiliza el statement 'continue'.
   // Tu código:
   
-  // var dos = [];
-  // for (let i = 0; i < 10; i++) {
-  //   //Omitir la iteración cuando i es igual a 5
-  //   if(i === 5){
-  //     continue;
-  //   }
-  //   dos.push(num)
-  //   //Se agrega 2 a num para la siguiente iteración
-  //   num += 2;
-  // }
-  // return dos
+  var array = [];
+  var suma = num;
+  for (let i = 0; i < 10; i++) {
+    //Omitir la iteración cuando i es igual a 5
+    if(i === 5){
+      continue;
+    } else {
+      //incrementar el numero + 2
+      suma += 2
+      array.push(suma)
+    }
+  }
+  return array
   
 }
 
