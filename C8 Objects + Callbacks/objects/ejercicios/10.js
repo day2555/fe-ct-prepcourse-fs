@@ -4,6 +4,10 @@ function agregarPropiedad(objeto, propiedad) {
   // Esta propiedad será igual al valor `null`.
   // Retornar el objeto.
   // Tu código:
+  //Null no es un string, es la palabra reservada null
+  objeto[propiedad] = null;
+  return objeto;
+
 }
 
 module.exports = agregarPropiedad;
